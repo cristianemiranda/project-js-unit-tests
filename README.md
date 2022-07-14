@@ -1,23 +1,24 @@
-# Boas-vindas ao repositório do projeto ES6 e Testes Unitários!
+# Bem vindo ao projeto Js Unit Tests
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-<details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
-
-  Você implementará várias funções na resolução dos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas, de acordo com o que está sendo solicitado em cada enunciado.
-
-  Nesse projeto, você será capaz de:
-
-  - Escrever testes unitários utilizando o módulo Jest do NodeJS para verificar o correto funcionamento das funções;
-  - Escrever funções de forma que elas atendam a testes já implementados;
-  - Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
-
-# Requisitos Obrigatórios
-
-⚠️ Lembre-se de que o seu projeto só será avaliado se estiver passando por **todos os _checks_** do **Linter**. Utilize o comando `npm run lint` no seu terminal para verificar os _checks_ do **Linter** 😉 ⚠️
+## Comentários
+Foram desenvolvidos testes e funções, todos testes utilizam o módulo Jest do NodeJs, e foi utilizado o ES Lint para avaliar o código.
 
 ---
+
+## Instalação do projeto localmente:
+
+1. No terminal, em um diretório de sua escolha, clonar o repositório:
+
+```
+git clone git@github.com:lucas-da-silva/trybe-js-unit-tests.git
+```
+
+2. Dentro do reposítorio, existe o diretório tests que contem os testes, e no diretório src estão as funções que são testadas. :rocket:
+  - Está especificado nos requisitos quais testes e funções eu fiz, ou que foram criadas pelas Trybe; 
+
+--- 
+
+## Requisitos
 
 ### 1. Implemente a função `average`
 
@@ -25,12 +26,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   <summary>A função average recebe um array de tamanho variável e retorna a média dos valores recebidos. Caso a função receba algum valor não numérico ou um array vazio, o valor `undefined` deve ser retornado.</summary><br/> 
   
   Todos os resultados devem ser arredondados para valores inteiros. Ex: 4,6 vira 5; 1,3 vira 1. O arquivo `average.spec.js` contém os testes para `average` já implementados. Implemente a função no arquivo `src/average.js` de forma que ela atenda aos testes propostos.
-
-  **O que será testado:**
-
-  - Será validado se, ao receber um array de números, a função `average` retorna a média de seus valores;
-  - Será validado se, ao receber um array que contém valores não numéricos, a função `average` retorna `undefined`;
-  - Será validado se, ao receber um array vazio, a função `average` retorna `undefined`.
 
 </details>
 
@@ -42,10 +37,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   <summary>A função `numbers` recebe um array de tamanho variável e retorna `true` se todos os parâmetros forem do tipo 'number' e `false` caso contrário.</summary><br/> 
   
   Essa função já está implementada no arquivo `src/numbers.js`. Escreva pelo menos quatro testes para essa função para garantir que a implementação de `numbers` está correta.
-
-  **O que será testado:**
-
-  - Será validado se no teste da função `numbers`, o retorno da função é `true` quando o array passado por parâmetro contém somente números.
 
 </details>
 
@@ -65,13 +56,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
   Caso a função seja chamada sem nenhum parâmetro, o valor `undefined` deve ser retornado. O arquivo `vqv.spec.js` contém os testes para `vqv` já implementados. Implemente a função no arquivo `src/vqv.js` de forma que ela atenda aos testes propostos.
 
-  **O que será avaliado**
-
-  - Será validado se `vqv` é uma função;
-  - Será validado se a função `vqv` retorna dados do tipo string;
-  - Será validado se a função `vqv` retorna a frase esperada quando passados parâmetros de nome e idade;
-  - Será validado se a função `vqv`, quando chamada sem parâmetro, retorna `undefined`.
-
 </details>
 
 ---
@@ -83,10 +67,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   <summary>A função `circle` recebe o raio de um círculo e retorna um objeto contendo as suas informações: Raio, Área e Circunferência. Se não for especificado um raio, a função retorna `undefined`.</summary></br>
   
   Essa função já está implementada no arquivo `src/circle.js`. Escreva pelo menos seis testes para essa função para garantir que a implementação de `circle` está correta.
-
-  **O que será avaliado**
-
-  - Será validado se no teste da função `circle`, ao receber um raio, o retorno da função é um objeto com as informações corretas (Raio, Área e Circunferência).
 
 </details>
 
@@ -101,10 +81,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   2. **feedback**, contendo uma função que retorna a frase 'Eita pessoa boa!' ao ser chamada.
 
   O arquivo `createStudent.spec.js` contém os testes para `createStudent` já implementados. Implemente a função no arquivo `src/createStudent.js` de forma que ela atenda aos testes propostos.
-
-  **O que será avaliado**
-
-  - Será validado se a função `createStudent` retorna um objeto que contenha duas chaves: `name`, contendo o nome passado como parâmetro; e `feedback`, contendo uma função que retorna a frase 'Eita pessoa boa!' ao ser chamada.
 
 </details>
 
@@ -139,10 +115,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   ```
 
   Essa função já está implementada no arquivo `src/productDetails.js`. Escreva pelo menos cinco testes para essa função no arquivo `tests/productDetails.js` para garantir que a implementação de `productDetails` está correta.
-
-  **O que será avaliado**
-
-  - Será validado se no teste da função `productDetails`, ao receber duas strings, o retorno da função é um array de objetos e se cada objeto contém os dados necessários.
 
 </details>
 
@@ -190,11 +162,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   ```
   O arquivo `objPlayground.spec.js` contém os testes para `calculator` e `arrayGenerator` já implementados. Implemente as funções no arquivo `src/objPlayground.js` de forma que ela atenda aos testes propostos.
 
-  **O que será avaliado**
-
-  - Será avaliado se a função `calculator` retorna os valores esperados;
-  - Será avaliado se a função `arrayGenerator` retorna os valores esperados.
-
 </details>
 
 ---
@@ -205,10 +172,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   <summary>A função myCounter possui dois loops aninhados que inserem valores dentro de um array. Como podemos perceber, eles vão adicionando valores ao array até sua condição de parada.</summary></br>
 
    Corrija a função `myCounter`, sem eliminar nenhum dos loops de repetição, para que a função retorne o array correto. O arquivo `myCounter.spec.js` contém os testes para `myCounter` já implementados. Implemente a função no arquivo `src/myCounter.js` de forma que ela atenda aos testes propostos.
-
-  **O que será avaliado**
-
-  - Será validado se a função `myCounter` retorna os dados esperados de acordo com o que está implementado no teste.
 
 </details>
 
@@ -235,12 +198,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   ```
 
   Essa função já está implementada no arquivo `src/getCharacter.js`. Escreva pelo menos seis testes para essa função no arquivo `tests/getCharacter.spec.js` para garantir que a implementação de `getCharacter` está correta.
-
-  **O que será avaliado**
-
-  - Será validado se no teste da função `getCharacter` ao receber uma string, o retorno da função é o esperado - de acordo com a tabela apresentada no arquivo de testes.
-  - Será validado se no teste da função `getCharacter` ao não receber nenhum parâmetro, o retorno da função é `undefined`.
-  - Será validado se o teste da função `getCharacter` verifica se o parâmetro é case sensitive.
 
 </details>
 
@@ -288,10 +245,5 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   11. No arquivo `tests/restaurant.spec.js`, escreva um teste que verifica que, ao chamar `objetoRetornado.pay()`, retorna-se a soma dos preços de tudo que foi pedido, conforme registrado em `objetoRetornado.consumption`.
 
   12. No arquivo `src/restaurant.js`, adicione ao objeto retornado por `createMenu()` uma chave `pay` com uma função que percorre por todos os itens de `objetoRetornado.consumption`, soma o preço deles e retorna o valor somado acrescido de 10%. DICA: para isso, você precisará percorrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
-
-  **O que será avaliado**
-
-  * Será validado se a função `createMenu()` retorna os dados esperados.
-  * Será validado se o teste da função `createMenu()` verifica cada um dos retornos da função e se estes retornos têm o comportamento esperado.
 
 </details>
