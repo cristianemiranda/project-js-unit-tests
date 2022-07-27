@@ -10,7 +10,7 @@ Foram desenvolvidos testes e funções, todos testes utilizam o módulo Jest do 
 1. No terminal, em um diretório de sua escolha, clonar o repositório:
 
 ```
-git clone git@github.com:lucas-da-silva/trybe-js-unit-tests.git
+git clone git@github.com:lucas-da-silva/js-unit-tests.git
 ```
 
 2. Dentro do reposítorio, existe o diretório tests que contem os testes, e no diretório src estão as funções que são testadas. :rocket:
