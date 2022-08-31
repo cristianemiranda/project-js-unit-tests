@@ -1,4 +1,4 @@
-# Bem vindo ao projeto Js Unit Tests
+# Bem vindo ao repositório do projeto Js Unit Tests
 
 ## Comentários
 Foram desenvolvidos testes e funções, todos testes utilizam o módulo Jest do NodeJs, e foi utilizado o ES Lint para avaliar o código.
